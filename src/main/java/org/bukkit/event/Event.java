@@ -739,6 +739,12 @@ public abstract class Event implements Serializable {
          * @see org.bukkit.event.entity.FoodLevelChangeEvent
          */
         FOOD_LEVEL_CHANGE(Category.LIVING_ENTITY),
+		/**
+		 * Called when a Sheep attempts to eat grass
+		 *
+		 * @see org.bukkit.event.entity.SheepEatGrassEvent
+		 */
+		SHEEP_EAT(Category.LIVING_ENTITY),
 
         /**
          * WEATHER EVENTS
