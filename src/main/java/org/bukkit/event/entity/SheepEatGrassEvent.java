@@ -26,19 +26,19 @@ public class SheepEatGrassEvent extends EntityEvent implements Cancellable {
         this.cancel = cancel;
     }
 
-	/**
-	 * Gets the Block of grass the Sheep will eat
-	 */
+    /**
+     * Gets the Block of grass the Sheep will eat
+     */
 	
-	public Block getGrass() {
-		return grass;
-	}
+    public Block getGrass() {
+        return grass;
+    }
 	
-	/**
-	 * Sets the Block of grass the Sheep will eat
-	 */
+    /**
+     * Sets the Block of grass the Sheep will eat
+     */
 	
-	public void setGrass(Block grass) {
-		this.grass = grass;
-	}
+    public void setGrass(Block grass) {
+        this.grass = grass;
+    }
 }
